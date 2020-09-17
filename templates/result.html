@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Skeleton application demoing Heroku and Flask integration.">
+    <meta name="author" content="@gotoariel">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <title>ironic that a website about art looks so terrible</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-left">
+          <h2 style="text-align:center">You should look at these.</h2>
+        </div>
+		<div style="text-align:center">
+			<div style="text-align:center">
+				<img src = "{{im0|safe}}" alt = "Hmm, where's the picture?" height = "{{he0|safe}}" width="{{wi0|safe}}">
+				<p style = "text-align:center">{{ti0|safe}}</p>
+				<p style = "text-align:center"><a href="{{li0|safe}}">Link here</a></p>
+			</div>
+			<div style="text-align:center">
+				<img src = "{{im1|safe}}" alt = "Hmm, where's the picture?" height = "{{he1|safe}}" width="{{wi1|safe}}">
+				<p style = "text-align:center">{{ti1|safe}}</p>
+				<p style = "text-align:center"><a href="{{li1|safe}}">Link here</a></p>
+			</div>
+			<div style="text-align:center">
+				<img src = "{{im2|safe}}" alt = "Hmm, where's the picture?" height = "{{he2|safe}}" width="{{wi2|safe}}">
+				<p style = "text-align:center">{{ti2|safe}}</p>
+				<p style = "text-align:center"><a href="{{li2|safe}}">Link here</a></p>
+			</div>
+			<div style="text-align:center">
+				<img src = "{{im3|safe}}" alt = "Hmm, where's the picture?" height = "{{he3|safe}}" width="{{wi3|safe}}">
+				<p style = "text-align:center">{{ti3|safe}}</p>
+				<p style = "text-align:center"><a href="{{li3|safe}}">Link here</a></p>
+			</div>
+			<div style="text-align:center">
+				<img src = "{{im4|safe}}" alt = "Hmm, where's the picture?" height = "{{he4|safe}}" width="{{wi4|safe}}">
+				<p style = "text-align:center">{{ti4|safe}}</p>
+				<p style = "text-align:center"><a href="{{li4|safe}}">Link here</a></p>
+			</div> 
+		</div>
+		<form id = "inputs" action="/reset" method="post">
+			<p style="text-align:center">If you don't like them, don't blame me, it's really hard to analyze art.</p>
+				
+			<p style="text-align:center"><input type="submit" value="Try again?"/></p>
+		</form>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
